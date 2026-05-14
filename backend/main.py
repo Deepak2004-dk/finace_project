@@ -50,12 +50,7 @@ from networth import router as networth_router, init_networth_tables
 # ─────────────────────────────────────────────────────────
 #  CONFIG
 # ─────────────────────────────────────────────────────────
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = "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"
 OPENROUTER_URL     = "https://openrouter.ai/api/v1/chat/completions"
 MODEL              = "openai/gpt-4o-mini"
 

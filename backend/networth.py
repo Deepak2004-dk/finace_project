@@ -18,12 +18,7 @@ from fastapi import APIRouter, HTTPException, Form, Query
 
 DB_CONFIG = dict(host="127.0.0.1", user="root", password="1100",
 database="finance_ai", autocommit=True)
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = "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"
 OPENROUTER_URL     = "https://openrouter.ai/api/v1/chat/completions"
 MODEL              = "openai/gpt-4o-mini"
 
