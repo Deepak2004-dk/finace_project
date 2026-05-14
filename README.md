@@ -84,6 +84,8 @@ The chatbot retrieves relevant information from financial documents and generate
 - Deploy using Docker or cloud services
 
 ## Author
-
-JEEVA PRASAD  
+Deepak K
+Pragadeesh T
+Prithvi Raj M
+Jeeva Prasad  
 GitHub: https://github.com/JEEVA-PRASAD-RK
